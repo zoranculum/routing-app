@@ -1,0 +1,27 @@
+.map-page {
+  @apply w-full h-full bg-transparent flex;
+  gap: 16px;
+
+  &__map-card {
+    @apply p-1 bg-white shadow rounded relative;
+
+    &--left {
+      @apply h-full;
+      flex: 9;
+    }
+    &--right {
+      @apply p-4 flex flex-col justify-between;
+      height: 50%;
+      flex: 3;
+    }
+
+    &__distance {
+      @apply font-poppins text-lg;
+    }
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}

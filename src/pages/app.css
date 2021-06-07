@@ -1,0 +1,7 @@
+.app-wrapper {
+  @apply w-screen h-screen bg-bright-salmon flex flex-col justify-start items-center;
+
+  &__content-container {
+    @apply w-full h-full p-4;
+  }
+}
